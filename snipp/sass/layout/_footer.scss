@@ -1,0 +1,52 @@
+.footer {
+  padding: 12.8rem 0;
+  font-size: 1.6rem;
+  background-color: $color-pink-3;
+  &__container {
+    color: $color-white;
+    width: 114rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+  }
+  &__width {
+    margin-bottom: 2.4rem;
+  }
+  &__heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+  & .row {
+    & p {
+      color: rgba($color-white, .7);
+      line-height: 1.8;
+      margin-bottom: 1.6rem;
+    }
+    & a {
+      color: rgba($color-white, .7);
+      line-height: 1.8;
+    }
+  }
+  &__social {
+    margin-bottom: 1.6rem;
+  }
+  &__animate {
+    margin-right: 1rem;
+    & a {
+      width: 5rem;
+      height: 5rem;
+      display: inline-block;
+      border-radius: 50%;
+      background-color: rgba($color-white, .05);
+    }
+  }
+}
+.col-md {
+  padding: 0 1.5rem;
+  flex: 0 0 25%;
+  box-sizing: border-box;
+}
+.d-block {
+  padding: .8rem 0;
+  display: block;
+}

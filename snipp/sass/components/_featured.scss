@@ -1,0 +1,107 @@
+.featured {
+  background-color: $color-grey-1;
+  padding: 0 1.5rem;
+  padding-bottom: 11.2rem !important;
+  &__title {
+    margin: 0 -1.5rem;
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  &__center {
+    flex-basis: 58%;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+  &__text {
+    font-size: 3.8rem;
+    font-weight: 100;
+    margin-bottom: .8rem;
+  }
+  & p {
+    margin-bottom: 1.6rem;
+  }
+}
+.px-3 {
+  color: $color-pink-2;
+  background-color: $color-pink;
+  padding: 0 1.6rem;
+}
+.featured-img {
+  display: inline-block;
+  transform: scale(.92);
+  position: relative;
+  transition: all .3s;
+  &:hover {
+    transform: scale(1);
+  }
+  &:hover .text-1 {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  &:hover .text {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  & span {
+    font-size: 1.4rem;
+    color: $color-grey;
+  }
+  & h3 {
+    color: $color-grey-4;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+.text-1 {
+  padding: 2.4rem;
+  background-color: $color-white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: all .3s;
+  & h3 {
+    font-size: 2rem;
+  }
+}
+.img-fluid {
+  width: 100%;
+}
+.text {
+  padding: 2.4rem;
+  background-color: $color-white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: all .3s;
+  box-shadow: 0px 31px 52px -37px rgba(0, 0, 0, 0.58);
+}
+.user {
+  display: flex;
+  & h3 {
+    font-size: 1.8rem;
+  }
+}
+.user-img {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-size: cover;
+  margin-right: 1.6rem;
+}
+.col-md-6 {
+  flex: 0 0 50%;
+}
+.col-md-8 {
+  flex: 0 0 67%;
+}
+.col-md-4 {
+  flex: 0 0 35%;
+}
